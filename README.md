@@ -1,4 +1,4 @@
-NTRODUCCIÓN 
+INTRODUCCIÓN 
 
 El tracto intestinal humano está poblado por 10^13 - 10^14 bacterias que en conjunto contienen 1,000 veces más genes que el genoma humano. 
 Varios estudios han confirmado que las bacterias del intestino influyen en la salud del cuerpo humano. Además de las bacterias, el intestino humano contiene millones de partículas virales, en su mayoría bacteriófagos. 
