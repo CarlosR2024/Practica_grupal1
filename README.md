@@ -40,6 +40,7 @@ El mapeo de las secuencias genómicas de un genoma en concreto se realiza con lo
 Los resultados se analizaron con los paquetes de programación en R, como por ejemplo "vegan" para determinar las abundancias bacterianas, "Rsamtools" para visualizar la cobertura de genoma determinado con las secuencias obtenidas y "FlowViz" para manejar los datos de citometría de flujo. 
 
 ESTRUCTURA DEL REPOSITORIO
+
 El repositorio está estructurado en 3 carpetas principales:
 
 - Docs: Documentación del estudio
