@@ -42,8 +42,7 @@ Los resultados se analizaron con los paquetes de programación en R, como por ej
 ESTRUCTURA DEL REPOSITORIO
 El repositorio está estructurado en 3 carpetas principales:
 
-Docs: para guardar documentación, artículos, etc.
-Datos: Para guardar datos brutos y procesados.
-Resultados:Para guardar resultados y trabajar con ellos.
+- Docs: Documentación del estudio
+- Datos y resultados.
 
  
