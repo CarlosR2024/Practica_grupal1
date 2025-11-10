@@ -39,4 +39,11 @@ En los estudios genómicos, las secuencias se compararon con las bases de datos 
 El mapeo de las secuencias genómicas de un genoma en concreto se realiza con los programas SSAHA 2.5.4 o Bowtie 2. 
 Los resultados se analizaron con los paquetes de programación en R, como por ejemplo "vegan" para determinar las abundancias bacterianas, "Rsamtools" para visualizar la cobertura de genoma determinado con las secuencias obtenidas y "FlowViz" para manejar los datos de citometría de flujo. 
 
+ESTRUCTURA DEL REPOSITORIO
+El repositorio está estructurado en 3 carpetas principales:
+
+Docs: para guardar documentación, artículos, etc.
+Datos: Para guardar datos brutos y procesados.
+Resultados:Para guardar resultados y trabajar con ellos.
+
  
