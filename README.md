@@ -42,7 +42,7 @@ ESTRUCTURA DEL REPOSITORIO
 
 El repositorio está estructurado en 3 carpetas principales:
 
-- Docs: Documentación del estudio
+- Fuente: Documentación del estudio
 - Datos y resultados.
 
  
