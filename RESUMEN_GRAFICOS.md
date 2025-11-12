@@ -1,4 +1,4 @@
-#GRÁFICOS GENERADOS PARA EL ESTUDIO METAGENÓMICO
+##GRÁFICOS GENERADOS PARA EL ESTUDIO METAGENÓMICO
 
 ## Resumen
 
@@ -35,3 +35,4 @@ Se han generado **2 gráficos profesionales** basados en los datos del estudio d
 > "Las secuencias obtenidas se procesaban con el programa PRINSEQ, que cortaba las secuencias según su calidad y eliminaba secuencias cortas o con baja entropia."
 
 ---
+
