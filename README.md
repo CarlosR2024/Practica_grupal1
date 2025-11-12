@@ -1,4 +1,6 @@
-# INTRODUCCIÓN 
+#IPC-2025-GRUPO5
+
+## INTRODUCCIÓN 
 
 El tracto intestinal humano está poblado por 10^13 - 10^14 bacterias y millones de bacteriófagos, con un contenido genético mucho mayor que el humano. La composición microbiana varía entre individuos y se ve afectada por dieta, estilo de vida y antibióticos.
 
