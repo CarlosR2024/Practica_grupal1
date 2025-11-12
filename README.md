@@ -1,32 +1,24 @@
-INTRODUCCIÓN 
+# IPC-2025-GRUPO5
 
-El tracto intestinal humano está poblado por 10^13 - 10^14 bacterias que en conjunto contienen 1,000 veces más genes que el genoma humano. 
-Varios estudios han confirmado que las bacterias del intestino influyen en la salud del cuerpo humano. Además de las bacterias, el intestino humano contiene millones de partículas virales, en su mayoría bacteriófagos. 
-La composición microbiana varia con el individuo. Las especies más numerosas podrían definir tres grupos de individuos: según predominen Bacteroides, Prevotella o Ruminococcus. 
-No obstatne, las funciones más importantes pueden ser realizadas por especies minoritarias. Durante el dasarrollo, la composición bacteriana en el intestino cambia por efecto de la dieta y el estilo de vida. Los antibióticos provocan fuertes cambios también. 
+## INTRODUCCIÓN 
 
-La secuenciación de ADN ha permitido conocer el potencial genético de todas las bacterias en el cuerpo humano sin necesidad de cultivarlas. Se estima que la mitad de las bacterias intestinales no se puede cultivar, pero se puede averiguar su función y aproximar su taxonomía. 
+El tracto intestinal humano está poblado por 10^13 - 10^14 bacterias y millones de bacteriófagos, con un contenido genético mucho mayor que el humano. La composición microbiana varía entre individuos y se ve afectada por dieta, estilo de vida y antibióticos.
 
-Hay varios métodos para descifrar el potencial genético de las bacterias: 
+La secuenciación de ADN permite estudiar el potencial genético de bacterias cultivables y no cultivables, utilizando:
+- Genómica: secuenciación y ensamblaje de genomas completos.
+- Metagenómica y transcriptómica: análisis de comunidades y genes expresados.
+- 16S rRNA: identificación de especies bacterianas.
 
-- Genómica bacteriana: se extrae ADN de las cepas aisladas y se fragmenta con enzimas de restricción o mecánicamente con ultrasonido o ultra presión, ya que los secuenciadores de ADN (Illumina MiSeq o 454 FLX+) no pueden leer la molécula de ADN entera. 
-Las secuencias obtenidas se ensamblan para reconstruir el genoma en su totalidad. El genoma bacteriano se cubre con secuencias solapantes para obtener un ensamblaje correcto. 
+La citometría de flujo facilita la selección de células bacterianas según ADN, proteínas de superficie o taxonomía, procesando rápidamente grandes cantidades de células para estudios funcionales.
 
-- Metagenómica: se extrae ADN de todo el conjunto de las bacterias obtenidas directamente de un ambiente. El objetivo es descifrar las secuencias para ver cuáles son las principales rutas metabólicas de ese ambiente e intentar determinar las principales familias bacterianas que son productoras de estos metabolitos. Otra rama de la metagenómica es la transcriptómica, en la que se estudian solo los genes expresados en el momento de recoger las muestras. - Clasificación taxonómica.
-
-- La secuenciación del gen 16S rRNA sirve para la identificación de especies bacterianas. El gen se amplifica en la reacción PCR. El producto de la amplificación debe tener el tamaño adecuado para su secuenciación. Estos métodos de secuenciación de ADN se suelen aplicar a toda la comunidad bacteriana, pero existen métodos de preselección de células bacterianas, como es el caso de la citometría de flujo. La citometría de flujo es una metodología que permite separar fracciones de comunidades microbianas basándose en características tales como el contenido celular de DNA, proteínas en la superficie celular o la taxonomía microbiana. El citómetro de flujo detecta la fluorescencia emitida por las células marcadas con fluoróforos que indican las características celulares de interés. Las células pueden ser marcadas directamente con un compuesto químico fluorescente o indirectamente con los fluoróforos conjugados con macromoléculas, anticuerpos o sondas (oligonucleótidos).
-
-Las células entran al citómetro de flujo en suspensión, se alinean y pasan una detrás de otra a través de uno o varios láseres. Cada partícula desvía la luz en forma diferente y al absorber la energía de láser, emite diferentes longitudes de onda que se filtran por un sistema de espejos. Las ondas son recogidas por sensores que envían la información de intensidad a un ordenador. Dependiendo del citómetro y de la muestra, el citómetro de flujo puede procesar datos de cientos de miles de células en unos minutos. 
-
-OBJETIVOS 
+## OBJETIVOS 
 
  Los objetivos principales de este estudio son los siguientes: 
 
-El objetivo 1 de esta tesis es optimizar los protocolos de preparación de las librerías de secuenciación para poder secuenciar muestras procedentes de la citometría de flujo. Los resultados se compararán con los resultados del ADN enriquecido con la polimerasa Φ. 
+1. **Optimizacion los protocolos de preparación de las librerías de secuenciación** para poder secuenciar muestras procedentes de la citometría de flujo. Los resultados se compararán con los resultados del ADN enriquecido con la polimerasa Φ. 
 
-2: Virómica del intestino humano dirigida por la citometría de flujo 
-El objetivo 2 es estudiar por citometría de flujo las partículas virales presentes en un filtrado de muestras fecales. Se separará una fracción de partículas con el mismo tamaño y fluorescencia de ADN y se secuenciarán usando el protocolo optimizado en el objetivo 1. 
-Los genes se anotarán y se determinará su origen. 
+2. **Virómica del intestino humano dirigida por la citometría de flujo** Estudio por citometría de flujo las partículas virales presentes en un filtrado de muestras fecales. Se separará una fracción de partículas con el mismo tamaño y fluorescencia de ADN y se secuenciarán usando el protocolo optimizado en el objetivo 1. 
+
 
 MÉTODOS 
 
@@ -38,14 +30,11 @@ En los estudios genómicos, las secuencias se compararon con las bases de datos 
 El mapeo de las secuencias genómicas de un genoma en concreto se realiza con los programas SSAHA 2.5.4 o Bowtie 2. 
 Los resultados se analizaron con los paquetes de programación en R, como por ejemplo "vegan" para determinar las abundancias bacterianas, "Rsamtools" para visualizar la cobertura de genoma determinado con las secuencias obtenidas y "FlowViz" para manejar los datos de citometría de flujo. 
 
-ESTRUCTURA DEL REPOSITORIO
+## ESTRUCTURA DEL REPOSITORIO
 
 El repositorio está estructurado en carpetas:
-
-- Fuente: Documentación del estudio
-- Datos y resultados.
-- Imagenes
-- Docs
-- R
-
- 
+- Docs: Contiene documentación, artículos y referencias relacionadas con el proyecto.
+- Data: Contiene datos brutos y procesados.
+- Resultados: Contiene resultados y nos permite trabajar con ellos.
+- Scripts: Contiene scripts y notebooks utilizados y facilitar al resto del equipo que trabajen con ellos
+- Imagenes: para guardar figuras y graficoas obtenidos del analisis de datos
