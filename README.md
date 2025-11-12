@@ -40,9 +40,11 @@ Los resultados se analizaron con los paquetes de programación en R, como por ej
 
 ESTRUCTURA DEL REPOSITORIO
 
-El repositorio está estructurado en 3 carpetas principales:
+El repositorio está estructurado en carpetas:
 
 - Fuente: Documentación del estudio
 - Datos y resultados.
+- imagenes
+- 
 
  
