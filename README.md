@@ -44,7 +44,8 @@ El repositorio está estructurado en carpetas:
 
 - Fuente: Documentación del estudio
 - Datos y resultados.
-- imagenes
-- 
+- Imagenes
+- Docs
+- R
 
  
