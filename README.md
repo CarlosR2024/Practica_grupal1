@@ -42,5 +42,5 @@ El repositorio está estructurado en carpetas:
 # Integrantes
 Laura Lasquibar @llasquibar
 Carlos Rossell
-Dennis
-Naia
+Dennis Salex
+Naia Landaluce
