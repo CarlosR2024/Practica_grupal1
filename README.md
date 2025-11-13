@@ -38,3 +38,9 @@ El repositorio está estructurado en carpetas:
 - Resultados: Contiene resultados y nos permite trabajar con ellos.
 - Scripts: Contiene scripts y notebooks utilizados y facilitar al resto del equipo que trabajen con ellos
 - Imagenes: para guardar figuras y graficoas obtenidos del analisis de datos
+
+# Integrantes
+Laura Lasquibar @llasquibar
+Carlos Rossell
+Dennis
+Naia
