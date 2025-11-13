@@ -15,7 +15,7 @@ La citometría de flujo facilita la selección de células bacterianas según AD
 
  Los objetivos principales de este estudio son los siguientes: 
 
-1. **Optimizacion los protocolos de preparación de las librerías de secuenciación** para poder secuenciar muestras procedentes de la citometría de flujo. Los resultados se compararán con los resultados del ADN enriquecido con la polimerasa Φ. 
+1. **Optimizacion de los protocolos de preparación de las librerías de secuenciación** para poder secuenciar muestras procedentes de la citometría de flujo. Los resultados se compararán con los resultados del ADN enriquecido con la polimerasa Φ. 
 
 2. **Virómica del intestino humano dirigida por la citometría de flujo** Estudio por citometría de flujo las partículas virales presentes en un filtrado de muestras fecales. Se separará una fracción de partículas con el mismo tamaño y fluorescencia de ADN y se secuenciarán usando el protocolo optimizado en el objetivo 1. 
 
