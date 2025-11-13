@@ -26,9 +26,9 @@ Las células bacterianas procedentes de heces se fijaban con formaldehido y se m
 Los virus, en el proyecto de secuenciación de viroma, se marcaban con SYBR Green I. Las bacterias activas se marcaban con pironina Y que es específico para ARN; El ADN se extraía con el método de fenol-cloroformo donde se empleaba bromuro de hexadeciltrimetilamonio, lisozima y proteinasa K. Para estudiar el gen 16S rRNA se amplificaban los regiones V3 y V4 y los amplicones se trataban según las instrucciones de secuenciación por Illumina. En los estudios genómicos, el ADN se fragmentaba por sonicación o usando el kit Nextera empleando la tagmentación. 
 La secuenciación masiva se llevará a cabo en las plataformas Illumina y 454 FLX+. En general, las secuencias obtenidas se procesaban con el programa PRINSEQ, que cortaba las secuencias según su calidad y eliminaba secuencias cortas o con baja entropia. En los estudios taxonómicos, los amplicones de 16S rDNA se compararan con la base de datos "Ribosomal database project". 
 
-En los estudios genómicos, las secuencias se compararon con las bases de datos de NCBI usando algoritmos de "blastn" o "blastx" y en el caso de virómica con las bases de datos ACLAME y phiSITE. Las secuencias genómicas se ensamblaron con el programa MIRA4 y los "marcos abierto de lectura" se anotaron en la base de datos InterPro. 
-El mapeo de las secuencias genómicas de un genoma en concreto se realiza con los programas SSAHA 2.5.4 o Bowtie 2. 
-Los resultados se analizaron con los paquetes de programación en R, como por ejemplo "vegan" para determinar las abundancias bacterianas, "Rsamtools" para visualizar la cobertura de genoma determinado con las secuencias obtenidas y "FlowViz" para manejar los datos de citometría de flujo. 
+En los estudios genómicos, las secuencias se compararan con las bases de datos de NCBI usando algoritmos de "blastn" o "blastx" y en el caso de virómica con las bases de datos ACLAME y phiSITE. Las secuencias genómicas se ensamblaran con el programa MIRA4 y los "marcos abierto de lectura" se anotaran en la base de datos InterPro. 
+El mapeo de las secuencias genómicas de un genoma en concreto se realizará con los programas SSAHA 2.5.4 o Bowtie 2. 
+Los resultados se analizaran con los paquetes de programación en R, como por ejemplo "vegan" para determinar las abundancias bacterianas, "Rsamtools" para visualizar la cobertura de genoma determinado con las secuencias obtenidas y "FlowViz" para manejar los datos de citometría de flujo. 
 
 ## ESTRUCTURA DEL REPOSITORIO
 
