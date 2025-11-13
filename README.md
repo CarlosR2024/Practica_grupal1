@@ -20,7 +20,7 @@ La citometría de flujo facilita la selección de células bacterianas según AD
 2. **Virómica del intestino humano dirigida por la citometría de flujo** Estudio por citometría de flujo las partículas virales presentes en un filtrado de muestras fecales. Se separará una fracción de partículas con el mismo tamaño y fluorescencia de ADN y se secuenciarán usando el protocolo optimizado en el objetivo 1. 
 
 
-MÉTODOS 
+## MÉTODOS 
 
 Las células bacterianas procedentes de heces se fijan con formaldehido y se marcan con SYTO®62 para distinguir las células de otras partículas de tamaño similar que podían permanecer en las heces después de la purificación bacteriana. 
 Los virus, en el proyecto de secuenciación de viroma, se marcan con SYBR Green I. Las bacterias activas se marcan con pironina Y que es específico para ARN; El ADN se extrae con el método de fenol-cloroformo donde se emplea bromuro de hexadeciltrimetilamonio, lisozima y proteinasa K. Para estudiar el gen 16S rRNA se amplifican los regiones V3 y V4 y los amplicones se trata según las instrucciones de secuenciación por Illumina. En los estudios genómicos, el ADN se fragmenta por sonicación o usando el kit Nextera empleando la tagmentación. 
