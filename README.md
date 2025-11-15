@@ -25,7 +25,7 @@ Subojetivos:
 1.6. Secuenciar ambas estrategias, filtrar con PRINSEQ y comparar composición taxonómica y métricas de calidad.
 
 
-**Objetivo 2:** Virómica del intestino humano dirigida por la citometría de flujo.** 
+**Objetivo 2: Virómica del intestino humano dirigida por la citometría de flujo.** 
 Estudio por citometría de flujo las partículas virales presentes en un filtrado de muestras fecales. Se separará una fracción de partículas con el mismo tamaño y fluorescencia de ADN y se secuenciarán usando el protocolo optimizado en el objetivo 1. 
 
 Subojetivos:
