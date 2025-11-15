@@ -2,22 +2,57 @@
 
 ## INTRODUCCIÓN 
 
-El tracto intestinal humano está poblado por 10^13 - 10^14 bacterias y millones de bacteriófagos, con un contenido genético mucho mayor que el humano. La composición microbiana varía entre individuos y se ve afectada por dieta, estilo de vida y antibióticos.
+El tracto intestinal humano alberga entre 10^13 - 10^14 células bacterianas, además de millones de bacteriófagos, con un contenido genético toal que supera ampliamente al humano. La composición microbiana varía entre individuos y se ve influenciada por factores como la dieta, el estilo de vida y el uso de antibióticos.
 
-La secuenciación de ADN permite estudiar el potencial genético de bacterias cultivables y no cultivables, utilizando:
+La secuenciación de ADN permite estudiar el potencial genético de bacterias cultivables y no cultivables mediante diferentes enfoques:
 - Genómica: secuenciación y ensamblaje de genomas completos.
 - Metagenómica y transcriptómica: análisis de comunidades y genes expresados.
-- 16S rRNA: identificación de especies bacterianas.
+- 16S rRNA: identificación y clasificación taxonómica de especies bacterianas.
 
-La citometría de flujo facilita la selección de células bacterianas según ADN, proteínas de superficie o taxonomía, procesando rápidamente grandes cantidades de células para estudios funcionales.
+La citometría de flujo facilita la selección de células bacterianas en función de su contenido de ADN, proteínas de superficie o marcadores específicos, permitiendo procesar rápidamente grandes cantidades de células de manera rápida y eficiente para estudios funcionales.
 
 ## OBJETIVOS 
 
- Los objetivos principales de este estudio son los siguientes: 
+**Objetivo 1:  Optimizacion de los protocolos de preparación de las librerías de secuenciación para poder secuenciar muestras procedentes de la citometría de flujo.**
+Comparar la eficiencia de amplificación y secuenciación de ADN bacteriano obtenido mediante citometría de flujo frente a ADN amplificado mediante la polimerasa Φ29, validando que los protocolos optimizados producen librerías de calidad adecuada para secuenciación masiva.
 
-1. **Optimizacion de los protocolos de preparación de las librerías de secuenciación** para poder secuenciar muestras procedentes de la citometría de flujo. Los resultados se compararán con los resultados del ADN enriquecido con la polimerasa Φ. 
+Subojetivos:
 
-2. **Virómica del intestino humano dirigida por la citometría de flujo** Estudio por citometría de flujo las partículas virales presentes en un filtrado de muestras fecales. Se separará una fracción de partículas con el mismo tamaño y fluorescencia de ADN y se secuenciarán usando el protocolo optimizado en el objetivo 1. 
+1.1. Estandarizar la fijación con formaldehído, tinción con SYTO®62 y optimizar parámetros citométricos (gates, voltajes).
+
+1.2. Optimizar extracción de ADN por método fenol-cloroformo (CTAB + lisozima + proteinasa K) y validar calidad.
+
+1.3. Preparar reacciones de amplificación con polimerasa Φ29 y comparar rendimientos.
+
+1.4. Amplificar regiones V3-V4 del gen 16S rRNA con barcoding y PCR indexada (triplicados).
+
+1.5. Fragmentar ADN por sonicación o tagmentación Nextera y preparar librerías Illumina.
+
+1.6. Secuenciar ambas estrategias, filtrar con PRINSEQ y comparar composición taxonómica y métricas de calidad.
+
+
+**Objetivo 2: Virómica del intestino humano dirigida por la citometría de flujo.** 
+Estudio por citometría de flujo las partículas virales presentes en un filtrado de muestras fecales. Se separará una fracción de partículas con el mismo tamaño y fluorescencia de ADN y se secuenciarán usando el protocolo optimizado en el objetivo 1. 
+
+Subojetivos:
+
+2.1. Purificar partículas virales: centrifugación diferencial, filtración y concentración; validar ausencia de contaminación bacteriana.
+
+2.2. Optimizar tinción con SYBR Green I, establecer gates citométricos para VLPs y validar especificidad de marcaje.
+
+2.3. Ejecutar citometría de flujo con ordenamiento; recuperar VLPs en buffer de preservación y evaluar integridad.
+
+2.4. Extraer ADN viral (fenol-cloroformo), cuantificar y validar tamaño de fragmentos; amplificar con Φ29 si es necesario.
+
+2.5. Fragmentar ADN viral, construir librerías para Illumina y 454 FLX+ con controles positivos y negativos.
+
+2.6. Secuenciar (Illumina: 100-150 bp paired-end; 454 FLX+: single-end). Mínimo 10⁷ reads por muestra.
+
+2.7. Filtrar con PRINSEQ, eliminar secuencias adaptadoras, descartar rRNA bacterial (BLASTn vs. rRNA database).
+
+2.8. Ensamblar con MIRA4, mapear con SSAHA2/Bowtie2, comparar contra ACLAME/phiSITE/NCBI, anotar ORFs con InterPro.
+
+2.9. Calcular abundancia relativa (Rsamtools), diversidad alfa/beta, visualizar con R (vegan, ggplot2, FlowViz).
 
 
 ## MÉTODOS 
@@ -33,11 +68,15 @@ Los resultados se analizaran con los paquetes de programación en R, como por ej
 ## ESTRUCTURA DEL REPOSITORIO
 
 El repositorio está estructurado en carpetas:
-- Docs: Contiene documentación, artículos y referencias relacionadas con el proyecto.
-- Data: Contiene datos brutos y procesados.
-- Resultados: Contiene resultados y nos permite trabajar con ellos.
-- Scripts: Contiene scripts y notebooks utilizados y facilitar al resto del equipo que trabajen con ellos
-- Imagenes: para guardar figuras y graficoas obtenidos del analisis de datos
+
+- 01 - Docs: Contiene documentación, artículos y referencias relacionadas con el proyecto.
+- 02 - Data: Contiene datos brutos y procesados.
+- 03 - Scripts: Contiene scripts y notebooks para facilitar al resto del equipo que trabajen con ellos
+- 04 - Analisis: Archivos generados durante el trabajo: números intermedios, gráficos de prueba, tablas sin pulir y documentación de cada paso realizado.
+- 05 - Resultados: Contiene resultados en formato de tablas finales, figuras para publicaciones y data para piblicar en bases de datos oficiales.
+- 06 - Imagenes: Figuras organizadas temáticamente, incluidos gráficos de control de calidad y diagnósticos.
+- 07 - Metadata: Información crítica de muestras, parámetros experimentales, logs. 
+- 08- Notebooks: Jupyter/Rmarkdown notebooks para análisis interactivos y documentación legible del workflow completo.
 
 # Integrantes
 Laura Lasquibar @llasquibar
