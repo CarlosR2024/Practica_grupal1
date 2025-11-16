@@ -96,7 +96,7 @@ El repositorio está estructurado en carpetas:
 9. Notebooks: Jupyter/Rmarkdown notebooks para análisis interactivos y documentación legible del workflow completo.
 
 # Integrantes
-Laura Lasquibar @llasquibar
-Carlos Rossell
-Dennis Silva
-Naia Landaluce
+- Laura Lasquibar @llasquibar
+- Carlos Rossell
+- Dennis Silva
+- Naia Landaluce
