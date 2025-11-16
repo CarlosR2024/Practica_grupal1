@@ -69,14 +69,31 @@ Los resultados se analizaran con los paquetes de programación en R, como por ej
 
 El repositorio está estructurado en carpetas:
 
-- 01 - Docs: Contiene documentación, artículos y referencias relacionadas con el proyecto.
-- 02 - Data: Contiene datos brutos y procesados.
-- 03 - Scripts: Contiene scripts y notebooks para facilitar al resto del equipo que trabajen con ellos
-- 04 - Analisis: Archivos generados durante el trabajo: números intermedios, gráficos de prueba, tablas sin pulir y documentación de cada paso realizado.
-- 05 - Resultados: Contiene resultados en formato de tablas finales, figuras para publicaciones y data para piblicar en bases de datos oficiales.
-- 06 - Imagenes: Figuras organizadas temáticamente, incluidos gráficos de control de calidad y diagnósticos.
-- 07 - Metadata: Información crítica de muestras, parámetros experimentales, logs. 
-- 08- Notebooks: Jupyter/Rmarkdown notebooks para análisis interactivos y documentación legible del workflow completo.
+1. Docs: Contiene documentación, artículos y referencias relacionadas con el proyecto.
+   1.1 Bibliografia: Contiene documentos usados de referencia
+   1.2 Reuniones: Minutas de las reuniones de equipo
+   1.3 SOPs: Procedimientos estandarizados de los metodos
+2. Data: Contiene datos brutos y procesados.
+   2.1 Raw: contiene los datos brutos
+   2.2 Procesados: contiene datos limpios
+3. Scripts: contiene scripts y notebooks para facilitar al resto del equipo que trabajen con ellos
+   3.1 Citometria: contiene codigos y programas para procesar, analizar datos de citometría de          flujo
+   3.2 R: scripts en R para procesar y analizar
+   3.3 Utiles: paquetes utiles de trabajo
+   3.4 Visualizaciones: scripts dedicados a generar gráficos y visualizaciones de los datos
+4. Analisis: archivos generados durante el trabajo: números intermedios, gráficos de prueba, tablas sin pulir y documentación de cada paso realizado.
+   4.1 Ensamblajes: ensamblajes provisonales
+   4.2 QC: Contiene control de calidad (PRINSEQ), gráficos preliminares y reports de calidad
+   4.3 Taxonomia: resultados taxonómicos provisionales (16S, viroma)
+5. Resultados: resultados en formato de tablas finales, figuras para publicaciones y data para piblicar en bases de datos oficiales.
+6. Imagenes: figuras organizadas temáticamente, incluidos gráficos de control de calidad y diagnósticos.
+   6.1 Graficas: representaciones visuales generadas durante el análisis, como histogramas de          calidad, coverage plots, plots de gating en citometría de flujo...
+   6.2 Tablas: Representaciones gráficas de datos tabulares relevantes, como matrices de               correlación, tablas de abundancia relativas o resúmenes estadísticos visualizados...
+8. Metadata: Información crítica de muestras, parámetros experimentales, logs.
+   8.1 Citometria: Metadatos obtenidos de los ensayos de citometria
+   8.2 Muestras: Informacion critica de las muestras
+   8.3 Secuenciacion: Información detallada de cada corrida de secuenciación
+9. Notebooks: Jupyter/Rmarkdown notebooks para análisis interactivos y documentación legible del workflow completo.
 
 # Integrantes
 Laura Lasquibar @llasquibar
