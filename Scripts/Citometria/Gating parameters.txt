@@ -1,0 +1,1 @@
+Parametros comunes para gating en el analisis de citometria
