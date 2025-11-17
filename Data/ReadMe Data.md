@@ -14,6 +14,7 @@ Archivos CSV originales sin modificar:
 
 ### 2.  Procesados (Datos Limpios)
 Datos procesados y listos para análisis:
+- Base de datos procesada que contiene edades, géneros y niveles relativos de 5 metabolitos para 10 muestras.
 - Sin valores NaN
 - Filtrados por calidad (PRINSEQ)
 - Formateados para análisis downstream
