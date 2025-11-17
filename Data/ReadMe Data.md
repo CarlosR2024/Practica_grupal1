@@ -7,6 +7,7 @@ Carpeta para guardar todos los datos usados en el estudio.
 
 ### 1.  Raw (Datos Brutos)
 Archivos CSV originales sin modificar:
+- Archivo explicativo con datos incluidos
 - Datos de secuenciación directa
 - Exportaciones de citómetro
 - Archivos FASTQ/FASTA originales
