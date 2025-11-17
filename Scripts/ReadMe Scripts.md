@@ -16,6 +16,7 @@ Scripts en R para procesamiento y análisis:
 - `01_limpieza.R`: Limpieza de datos CSV
 - `02_analisis.R`: Análisis estadístico
 - `03_visualizacion.R`: Generación de gráficos
+  `04_Grafico_barras_nivel_promedio_1methylguanine_por_genero.R`: Generación de gráfico de barras de nivel promedio de 1 methyl guanina, datos de base de datos `Metabolitos_Intestinales_Edad_Genero_Muestras.csv`
 
 ### 3.  Utiles
 Paquetes y utilidades de trabajo:
