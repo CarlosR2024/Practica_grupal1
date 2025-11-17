@@ -7,6 +7,8 @@
 - [Métodos](#métodos)
 - [Estructura del Repositorio](#estructura-del-repositorio)
 - [Integrantes](#integrantes)
+- [Workflow del Proyecto](#Workflow-del-Proyecto)
+- [Referencias Clave](#Referencias-Clave)
 
 
 ## INTRODUCCIÓN 
@@ -106,7 +108,42 @@ Estudio por citometría de flujo las partículas virales presentes en un filtrad
 - `ggplot2`: Visualización de resultados
 
 ---
-
+# Workflow del Proyecto
+```mermaid
+graph TD
+    A[Muestras Fecales] --> B[Purificación Bacteriana]
+    A --> C[Purificación Viral]
+    
+    B --> D[Fijación + SYTO®62]
+    C --> E[Tinción SYBR Green I]
+    
+    D --> F[Citometría de Flujo]
+    E --> F
+    
+    F --> G[Extracción ADN]
+    G --> H[Amplificación Φ29]
+    
+    H --> I[Librería Illumina]
+    H --> J[Librería 454 FLX+]
+    
+    I --> K[Secuenciación]
+    J --> K
+    
+    K --> L[Control Calidad PRINSEQ]
+    L --> M[Ensamblaje MIRA4]
+    L --> N[Análisis Taxonómico]
+    
+    M --> O[Anotación InterPro]
+    N --> P[Visualización R]
+    O --> P
+    
+    P --> Q[Resultados Finales]
+    
+    style A fill:#e63946
+    style Q fill:#2a9d8f
+    style F fill:#457b9d
+    style K fill:#f77f00
+```
 ## ESTRUCTURA DEL REPOSITORIO
 
 ```
@@ -166,13 +203,37 @@ El repositorio está estructurado en carpetas:
    - Taxonomia: resultados taxonómicos provisionales (16S, viroma)
 5. Resultados: resultados en formato de tablas finales, figuras para publicaciones y data para piblicar en bases de datos oficiales.
 6. Imagenes: figuras organizadas temáticamente, incluidos gráficos de control de calidad y diagnósticos.
-   - Graficas: representaciones visuales generadas durante el análisis, como histogramas de          calidad, coverage plots, plots de gating en citometría de flujo...
-   - Tablas: Representaciones gráficas de datos tabulares relevantes, como matrices de               correlación, tablas de abundancia relativas o resúmenes estadísticos visualizados...
+   - Graficas: representaciones visuales generadas durante el análisis, como histogramas de  calidad, coverage plots, plots de gating en citometría de flujo...
+   - Tablas: Representaciones gráficas de datos tabulares relevantes, como matrices de  correlación, tablas de abundancia relativas o resúmenes estadísticos visualizados...
 8. Metadata: Información crítica de muestras, parámetros experimentales, logs.
    - Citometria: Metadatos obtenidos de los ensayos de citometria
    - Muestras: Informacion critica de las muestras
    - Secuenciacion: Información detallada de cada corrida de secuenciación
 9. Notebooks: Jupyter/Rmarkdown notebooks para análisis interactivos y documentación legible del workflow completo.
+
+##  Referencias Clave
+
+### Metodología
+1. **Li et al. (2014)** - *"An integrated catalog of reference genes in the human gut microbiome"* 
+   - Nature Biotechnology 32: 834-841
+   - [DOI: 10.1038/nbt.2942](https://doi.org/10.1038/nbt.2942)
+
+2. **Arumugam et al. (2011)** - *"Enterotypes of the human gut microbiome"*
+   - Nature 473: 174-180
+   - [DOI: 10.1038/nature09944](https://doi.org/10.1038/nature09944)
+
+### Herramientas Bioinformáticas
+3. **Schmieder & Edwards (2011)** - *"Quality control and preprocessing of metagenomic datasets"*
+   - Bioinformatics 27: 863-864
+   - PRINSEQ: [DOI: 10.1093/bioinformatics/btr026](https://doi.org/10.1093/bioinformatics/btr026)
+
+4. **Chevreux et al. (1999)** - *"Genome Sequence Assembly Using Trace Signals and Additional Sequence Information"*
+   - MIRA4: [Manual](http://mira-assembler.sourceforge.net/)
+
+### Citometría de Flujo
+5. **Props et al. (2016)** - *"Absolute quantification of microbial taxon abundances"*
+   - ISME Journal 11: 584-587
+   - [DOI: 10.1038/ismej.2016.117](https://doi.org/10.1038/ismej.2016.117)
 
 # Integrantes
 - Laura Lasquibar @llasquibar
