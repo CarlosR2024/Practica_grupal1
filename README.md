@@ -185,7 +185,7 @@ IPC-2025-GRUPO5/
 
 El repositorio está estructurado en carpetas:
 
-1. Docs: Contiene documentación, artículos y referencias relacionadas con el proyecto.
+1. Docs: Contiene documentación, artículos y referencias relacionadas con el proyecto. Incluye Estado del arte del proyecto.
    - Bibliografia: Contiene documentos usados de referencia
    - Reuniones: Minutas de las reuniones de equipo
    - SOPs: Procedimientos estandarizados de los metodos
