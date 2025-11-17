@@ -19,4 +19,3 @@ Información detallada de cada corrida de secuenciación:
 - `run_001_illumina.csv`: Metadata de corrida Illumina
 - Parámetros de secuenciación
 - QC metrics por corrida
-```
