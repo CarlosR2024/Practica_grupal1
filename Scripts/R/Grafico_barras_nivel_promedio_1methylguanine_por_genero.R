@@ -1,3 +1,5 @@
+install.packages("ggplot2")
+install.packages("dplyr")
 # Cargar librerías
 library(ggplot2)
 library(dplyr)
