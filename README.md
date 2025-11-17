@@ -211,6 +211,8 @@ El repositorio está estructurado en carpetas:
    - Secuenciacion: Información detallada de cada corrida de secuenciación
 9. Notebooks: Jupyter/Rmarkdown notebooks para análisis interactivos y documentación legible del workflow completo.
 
+Finalmente, en la carpeta raíz se incluye un informe final de resultados obtenidos en este proyecto, de modo que refleje el trabajo realizado. 
+
 ##  Referencias Clave
 
 ### Metodología
