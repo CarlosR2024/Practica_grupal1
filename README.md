@@ -7,7 +7,6 @@
 - [Métodos](#métodos)
 - [Estructura del Repositorio](#estructura-del-repositorio)
 - [Integrantes](#integrantes)
-- [Licencia](#licencia)
 
 
 ## INTRODUCCIÓN 
