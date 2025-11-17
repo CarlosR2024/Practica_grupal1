@@ -1,8 +1,4 @@
----
-title: "Estado del Arte en Microbioma Intestinal y Bioinformática para IPC-2025-GRUPO5"
-author: "Equipo IPC-2025-GRUPO5"
-date: "17/11/2025"
-output: html_document
+# Estado del Arte en Microbioma Intestinal y Bioinformática para IPC-2025-GRUPO5
 ---
 
 # Índice
