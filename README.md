@@ -7,6 +7,8 @@
 - [Métodos](#métodos)
 - [Estructura del Repositorio](#estructura-del-repositorio)
 - [Integrantes](#integrantes)
+- [Workflow del Proyecto](#Workflow-del-Proyecto)
+- [Referencias Clave](#Referencias-Clave)
 
 
 ## INTRODUCCIÓN 
@@ -106,7 +108,7 @@ Estudio por citometría de flujo las partículas virales presentes en un filtrad
 - `ggplot2`: Visualización de resultados
 
 ---
-# 📊 Workflow del Proyecto
+# Workflow del Proyecto
 ```mermaid
 graph TD
     A[Muestras Fecales] --> B[Purificación Bacteriana]
