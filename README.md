@@ -238,7 +238,7 @@ Finalmente, en la carpeta raíz se incluye un informe final de resultados obteni
    - [DOI: 10.1038/ismej.2016.117](https://doi.org/10.1038/ismej.2016.117)
 
 # Integrantes
-- Laura Lasquibar @llasquibar
+- Laura Lasquibar 
 - Carlos Rossell
 - Dennis Silva
 - Naia Landaluce
