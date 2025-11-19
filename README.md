@@ -237,6 +237,15 @@ Finalmente, en la carpeta raíz se incluye un informe final de resultados obteni
    - ISME Journal 11: 584-587
    - [DOI: 10.1038/ismej.2016.117](https://doi.org/10.1038/ismej.2016.117)
 
+### Identificación de Microorganismos en Muestras Ambientales: Análisis Bioinformático del Gen 16S RRNA Mediante QIIME2
+  - November 2023Ciencia Latina Revista Científica Multidisciplinar 7(5):8074-8102
+  -  DOI:10.37811/cl_rcm.v7i5.8382. LicenseCC BY 4.0
+  -  Authors: Valentín Pérez-Hernández. Center for Scientific Research and Higher Education at Ensenada
+  -  Center for Research and Advanced Studies of the National Polytechnic Institute
+  -  https://www.researchgate.net/publication/375859271_Identificacion_de_Microorganismos_en_Muestras_Ambientales_Analisis_Bioinformatico_del_Gen_16S_RRNA_Mediante_QIIME2
+    
+     
+
 # Integrantes
 - Laura Lasquibar 
 - Carlos Rossell
