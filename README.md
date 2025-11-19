@@ -14,6 +14,7 @@
 ## INTRODUCCIÓN 
 
 El tracto intestinal humano alberga entre **10¹³ - 10¹⁴ células bacterianas**, además de millones de bacteriófagos, con un contenido genético toal que supera ampliamente al humano. La composición microbiana varía entre individuos y se ve influenciada por factores como la dieta, el estilo de vida y el uso de antibióticos.
+Sus principales funciones incluyen actividades metabólicas como la producción de ácidos grasos de cadena corta y la absorción de nutrientes, efectos tróficos en el epitelio intestinal y en la estructura y la función del sistema inmunitario.
 
 ### Enfoques de Secuenciación
 La secuenciación de ADN permite estudiar el potencial genético de bacterias cultivables y no cultivables mediante diferentes enfoques:
